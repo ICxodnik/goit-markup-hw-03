@@ -81,7 +81,11 @@ body {
   }
 
 .section {
-    padding: 120px 0px;
+    padding: 120px 0;
+}
+
+.wedoing-section {
+    padding-top: 0;
 }
 
 .section-title {
@@ -118,6 +122,10 @@ body {
 /* logo end */
 
 /* header start */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .nav-list {
     display: inline-flex;
@@ -172,6 +180,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
 }
 
 .hero-button {
@@ -262,6 +271,7 @@ body {
 
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 265px;
 }
 /* footer end */
 
