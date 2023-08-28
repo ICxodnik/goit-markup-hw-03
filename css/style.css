@@ -25,10 +25,15 @@ body {
     font-size: 16px;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* h2, h3, h4, h5, h6 {
     color: var(--cl-dark); 
 } */
-
 .title {
     color: var(--cl-dark); 
 }
@@ -43,10 +48,10 @@ body {
 }
 
 /* reset styles start */
+
 /* address {
     font-style: normal;
 } */
-
 .address {
     font-style: normal;
 }
@@ -54,7 +59,6 @@ body {
 /* ul, ol {
     list-style: none;
 } */
-
 .list {
     list-style: none;
 }
@@ -63,7 +67,6 @@ body {
     text-decoration: none;
     color: currentColor;
 } */
-
 .link {
     text-decoration: none;
     color: currentColor;
@@ -74,7 +77,6 @@ body {
     color: currentColor;
     cursor: pointer;
 } */
-
 .button {
     font-family:'Roboto', sans-serif;
     color: currentColor;
@@ -147,15 +149,6 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
-
-/* h1 {
-    color: var(--cl-white_background);
-    text-align: center;
-
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-} */
 
 .hero-button {
     background: var(--cl-primary_brand);
