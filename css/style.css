@@ -1,29 +1,52 @@
 :root {
     --default-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
-
-    --cl-primary_brand: rgba(77, 90, 229, 1);
-    --cl-pressed_state: rgba(64, 75, 191, 1);
-    --cl-dark: rgba(46, 47, 66, 1);
-    --cl-success: rgba(49, 208, 170, 1);
-    --cl-text: rgba(67, 68, 85, 1);
-    --cl-subtle_text: rgba(142, 143, 153, 1);
-    /* --cl-accent: rgba(231, 233, 252, 1); */
-    --cl-accent: #F4F4FD;
-    --cl-light : rgba(244, 244, 253, 1);
+    --cl-primary_brand: #4D5AE5;
+    --cl-pressed_state: #404BBF;
+    --cl-dark: #2E2F42;
+    --cl-success: #31D0AA;
+    --cl-text:  #434455;
+    --cl-subtle_text: #8E8F99;
+    --cl-accent: #E7E9FC;
+    --cl-light : #F4F4FD;
     --cl-modal_overlay: rgba(46, 47, 66, 0.4);
     --cl-hero_background: rgba(46, 47, 66, 0.7);
-    --cl-white_background: rgba(255, 255, 255, 1);
-    --cl-modal_background: gba(252, 252, 252, 1);
+    --cl-white_background: #FFFFFFF;
+    --cl-modal_background: #FCFCFC;
 }
 
 body {
     background-color: var(--cl-white_background);
-    /* font-family: var(--cl-default-font); */
+    font-family: var(--cl-default-font);
     font-family: 'Roboto', sans-serif;
     color: var(--cl-text);
     font-size: 16px;
 }
+
+/* reset styles start */
+h2, h3, h4, h5, h6 {
+    color: var(--cl-dark); 
+}
+
+address {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+/* reset styles end */
 
 .container {
     width: 1158px;
@@ -31,59 +54,13 @@ body {
     padding: 0 15px;
 }
 
-/* h2, h3, h4, h5, h6 {
-    color: var(--cl-dark); 
-} */
-.title {
-    color: var(--cl-dark); 
-}
-
 .section-title {
     text-align: center;
-
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
-/* reset styles start */
-
-/* address {
-    font-style: normal;
-} */
-.address {
-    font-style: normal;
-}
-
-/* ul, ol {
-    list-style: none;
-} */
-.list {
-    list-style: none;
-}
-
-/* a {
-    text-decoration: none;
-    color: currentColor;
-} */
-.link {
-    text-decoration: none;
-    color: currentColor;
-}
-
-/* button {
-    font-family: inherit;
-    color: currentColor;
-    cursor: pointer;
-} */
-.button {
-    font-family:'Roboto', sans-serif;
-    color: currentColor;
-    cursor: pointer;
-}
-
-/* reset styles end */
 
 /* logo start */
 .logo {
@@ -179,7 +156,6 @@ body {
 
 .aboutstudio-tx {
     color: var(--cl-text);
-
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
