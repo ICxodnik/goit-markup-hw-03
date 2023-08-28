@@ -15,14 +15,6 @@
     --cl-modal_background: #FCFCFC;
 }
 
-body {
-    background-color: var(--cl-white_background);
-    font-family: var(--cl-default-font);
-    font-family: 'Roboto', sans-serif;
-    color: var(--cl-text);
-    font-size: 16px;
-}
-
 /* reset styles start */
 h2, h3, h4, h5, h6 {
     color: var(--cl-dark); 
@@ -48,6 +40,14 @@ button {
 }
 /* reset styles end */
 
+
+/* general styles start */
+body {
+    background-color: var(--cl-white_background);
+    font-family: var(--cl-default-font);
+    color: var(--cl-text);
+    font-size: 16px;
+}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -61,6 +61,8 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+/* general styles end */
+
 
 /* logo start */
 .logo {
