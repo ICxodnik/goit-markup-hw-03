@@ -66,20 +66,6 @@ body {
 
 /* logo start */
 .logo {
-    color: var(--cl-dark);
-    font-family: var(--accent-font);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.logo.white-logo {
-    color: var(--cl-light);
-}
-
-.logo-accent {
     color: var(--cl-primary_brand);
     font-family: var(--accent-font);
     font-size: 18px;
@@ -88,6 +74,16 @@ body {
     letter-spacing: 0.03;
     text-transform: uppercase;
 }
+
+.logo.dark-logo {
+    color: var(--cl-dark);
+}
+
+.logo.white-logo {
+    color: var(--cl-light);
+}
+
+
 /* logo end */
 
 /* header start */
