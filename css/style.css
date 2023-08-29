@@ -90,7 +90,12 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+}
+
+.nav {
+    display: flex;
+    align-items: center; 
+}
 
 .section {
     padding: 120px 0;
