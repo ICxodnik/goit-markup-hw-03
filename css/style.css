@@ -79,6 +79,10 @@ body {
     gap: var(--default-gap-cl);
 }
 
+.small-mg {
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
