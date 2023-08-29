@@ -247,6 +247,11 @@ main {
     /* display: flex;
     gap: 24px; */
 }
+
+.aboutstudio-el {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .aboutstudio-title {
     color: var(--cl-dark);
     margin-bottom: 8px;
