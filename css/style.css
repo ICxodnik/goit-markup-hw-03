@@ -378,7 +378,8 @@ main {
 .exemple-el {
     background: var(--cl-white_background);
     border: 1px solid var(--cl-accent);
-    flex-basis: calc((100% - 2 * 24px) / 3);
+    /* flex-basis: calc((100% - 2 * 24px) / 3); */
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .exemple-details {
