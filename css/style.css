@@ -63,11 +63,19 @@ button {
 
 /* general styles start */
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background-color: var(--cl-white_background);
     font-family: var(--cl-default-font);
     color: var(--cl-text);
     font-size: 16px;
 }
+
+main {
+    flex-grow: 1;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
