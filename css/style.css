@@ -79,10 +79,6 @@ body {
     gap: var(--default-gap-cl);
 }
 
-.small-mg {
-    margin-bottom: 8px;
-}
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -306,6 +302,11 @@ body {
 .footer {
     background: var(--cl-dark); 
     padding: 100px 0;
+}
+
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 .footer-tx {
