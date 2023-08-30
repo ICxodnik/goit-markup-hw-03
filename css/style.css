@@ -67,7 +67,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: var(--cl-white_background);
-    font-family: var(--cl-default-font);
+    font-family: var(--default-font);
     color: var(--cl-text);
     font-size: 16px;
 }
@@ -332,7 +332,6 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 265px;
-    margin-top: 17.5px;
 }
 /* footer end */
 
